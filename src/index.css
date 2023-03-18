@@ -18,6 +18,14 @@
   padding: 10px;
 }
 
+.logo-div {
+  display: grid;
+  place-items: center;
+  border: 1px solid black;
+  width: 150px;
+  font-size: 1.5rem;
+}
+
 .search-bar-div {
   display: grid;
   place-items: center;
@@ -29,23 +37,33 @@
 .search-bar-sub-div {
   border: 1px solid grey;
   border-radius: 30px;
+  height: 55px;
 }
 
 .search-field {
-  padding: 18px;
+  padding-top: 0px;
   height: 25px;
   width: 400px;
-  font-size: 1.2rem;
-
+  margin-left: 16px;
+  margin-bottom: 16px;
+  font-size: 1.3rem;
   border: none;
+}
+
+.search-field:focus {
+  outline: none;
 }
 
 .search-button {
   width: 120px;
-  height: 55px;
+  height: 47px;
   border-radius: 50px;
   border: none;
-  background-color: red;
+  margin-top: 4px;
+  margin-right: 3px;
+  font-size: 1.3rem;
+  background-color: #E52727;
   color: white;
+  cursor: pointer;
 }
 /* NAVBAR CSS */

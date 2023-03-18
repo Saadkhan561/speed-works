@@ -3,11 +3,11 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="navbar-main">
-      <div className="navbar-sub-div">Logo Name</div>
+      <div className="logo-div">Logo Name</div>
       <div className="search-bar-div">
         <div className="search-bar-sub-div">
             <input className="search-field" type="text" placeholder="search here"/>
-            <button className="search-button">Search</button>
+            <button className="search-button"><img src="./assets/search.png" alt="" height={30} width={30}/></button>
         </div>
       </div>
       <div className="navbar-sub-div">Account</div>

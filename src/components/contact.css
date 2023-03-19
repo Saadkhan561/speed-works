@@ -1,0 +1,89 @@
+.contact-main {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 10%;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.form-sub-div-1 {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form-sub-div-2 {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-input-div {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.contact-input-label {
+  font-size: 1.3rem;
+  color: grey;
+}
+
+.contact-input-label::before {
+  content: "*";
+  color: red;
+}
+.contact-input-field {
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: grey;
+  outline: none;
+  margin-top: 4px;
+  width: 450px;
+}
+
+.contact-input-field:focus {
+  outline: 1px solid #00bfff;
+  transition-duration: 0.5s;
+}
+
+.msg-field{
+    padding: 10px;
+    height: 400px;
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 1.3rem;
+    outline: none;
+    margin-top: 4px;
+    border-radius: 5px;
+    overflow: auto;
+    resize: vertical;
+}
+
+.msg-field:focus {
+    outline: 1px solid #00bfff;
+    transition-duration: 0.5s;
+}
+
+.form-button-div {
+    display: flex;
+    justify-content: end;
+}
+
+.form-button {
+    background-color: #e52727;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.3rem;
+}

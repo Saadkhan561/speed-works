@@ -16,7 +16,7 @@
 @media (min-width: 1040px) {
   .navbar-main-1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 8px;
     height: 150px;
   }
@@ -28,12 +28,10 @@
   .sub-navbar-2 {
     display: none;
   }
+
 }
 
 @media (max-width: 1040px) {
-  * {
-    overflow-y: hidden;
-  }
   .nav-ul-div {
     display: none;
   }
@@ -49,8 +47,6 @@
   .navbar-main-2 {
     display: flex;
     justify-content: space-between;
-    margin-right: 5%;
-    margin-left: 5%;
     padding: 8px;
     height: 70px;
   }
@@ -142,6 +138,12 @@
   place-items: center;
 }
 
+.account-button{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
 .account-sub-div {
   display: flex;
 }
@@ -160,10 +162,146 @@
   font-size: 17px;
 }
 
+.create-acc-div-1 {
+  position: absolute;
+  display: grid;
+  grid-template-rows: 50px 200px 50px 40px;
+  border: none;
+  top: 16%;
+  left: 62%;
+  height: 400px;
+  width: 220px;
+  padding: 30px;
+  overflow-y: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.create-acc-div-2 {
+  position: absolute;
+  display: grid;
+  grid-template-rows: 50px 200px 50px 40px;
+  border: none;
+  top: 12%;
+  left: 2%;
+  height: 400px;
+  width: 220px;
+  padding: 30px;
+  overflow-y: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.create-acc-div-hidden{
+  display: none;
+}
+#login-div {
+  font-size: 1.2rem;
+}
+
+.account-form {
+  display: grid;
+  grid-template-rows: repeat(2,80px) 30px;
+  color: grey;
+}
+
+.input-div{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.input-field {
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+#check-box-div {
+  display: flex;
+}
+
+.check-label {
+  font-size: 1.1rem;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.submit-button {
+   width: 150px;
+   background-color: #e52727;
+   border: none;
+   color: white;
+   border-radius: 20px;
+   font-size: 1.1rem;
+   cursor: pointer;
+}
+
+.forgotpass-div {
+  font-size: 1.1rem;
+  margin-top: 5px;
+  color:#e52727;
+}
+
+.forgotpass-div a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .cart-div {
   width: 180px;
   display: grid;
   place-items: center;
+}
+
+.cart-button {
+  border: none;
+  cursor: pointer;
+}
+
+.cart-product-div-1 {
+  height: 500px;
+  width: 200px;
+  position: absolute;
+  top: 16%;
+  left:80%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+}
+.cart-product-div-2 {
+  height: 500px;
+  width: 200px;
+  position: absolute;
+  top: 13%;
+  left:71%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+}
+
+.cart-product-div-hidden {
+  display: none;
+}
+
+.product-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-li {
+  padding: 10px;
+  font-size: 1.1rem;
+
+}
+
+
+.product-li a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+
 }
 
 .sub-navbar-1 {
@@ -220,11 +358,11 @@
 .nav-li {
   display: inline;
   padding: 20px;
-  color: black;
 }
 
 .nav-li a {
   text-decoration: none;
+  color: black;
 }
 
 .nav-li a:hover {
@@ -235,9 +373,10 @@
 
 .category-list {
   position: absolute;
-  top: 22%;
+  top:31%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 15px;
+  background-color: white;
 }
 
 .category-list-hidden {
@@ -273,6 +412,13 @@
   height: 100vh;
   width: 28%;
   background-color: white;
+}
+
+@media (max-width: 700px) {
+  .sub-navbar-sidebar-div {
+    width: 50%;
+    left: 50%;
+  }
 }
 .sub-navbar-sidebar-div-hidden {
   position: absolute;

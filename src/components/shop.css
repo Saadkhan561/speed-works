@@ -1,0 +1,58 @@
+#shop-tag {
+  color: white;
+  font-size: 4rem;
+}
+
+.shop-div {
+  background-color: black;
+  display: grid;
+  place-items: center;
+  padding: 40px;
+}
+
+#p-tag {
+  font-size: 1.2rem;
+  padding: 10px;
+  color: white;
+}
+#p-tag a {
+  color: #e52727;
+}
+
+#p-tag a:hover{
+  text-decoration: underline;
+}
+
+.shop-card-main-div-1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.shop-card-main-div-2 {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .shop-card-main-div-1 {
+    display: none;
+  }
+
+  .shop-card-main-div-2 {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+}
+
+.shop-card-div {
+  text-align: center;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.shop-card-img {
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+}

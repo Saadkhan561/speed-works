@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './navbar.css'
 
 const Navbar = () => {
   const [categoryDiv, setCategoryDiv] = useState(false);

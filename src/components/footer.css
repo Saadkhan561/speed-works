@@ -1,0 +1,60 @@
+.main-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  background-color: black;
+}
+
+.logo-name {
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.social-button{ 
+    border: none;
+    background-color: black;
+}
+
+.icon-div {
+  color: white;
+  display: flex;
+  place-items: center;
+}
+
+.link-div {
+  color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#link-id {
+  margin-left: 20px;
+}
+
+.footer-account-div {
+  color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-ul {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+}
+.footer-li {
+  padding: 5px;
+}
+
+.footer-li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-li a:hover {
+  color: #e52727;
+  text-decoration: underline;
+}

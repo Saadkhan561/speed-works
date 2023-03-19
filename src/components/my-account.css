@@ -1,0 +1,82 @@
+.form-main-div {
+  display: grid;
+  place-items: center;
+}
+
+.login-account-form {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  width: 800px;
+}
+
+@media (max-width: 1040px) {
+  .account-form {
+    width: 500px;
+  }
+}
+
+.login-tag {
+  font-size: 1.3rem;
+  color: black;
+  margin-left: 12px;
+}
+
+.login-input-div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.login-input-label::after {
+  content: '*';
+  color: red;
+}
+
+.login-input-field {
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  outline: none;
+  width: 90%;
+  border: 1px solid grey;
+}
+
+.login-input-field:focus {
+  outline: 1px solid #1e90ff;
+  transition-duration: 0.5s;
+}
+
+.check-box {
+  display: flex;
+  margin-left: 30px;
+}
+
+#check-box-label {
+  margin-left: 5px;
+}
+
+.login-button-div {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.login-button {
+  background-color: #e52727;
+  padding: 12px;
+  border: none;
+  width: 100px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+#forgot-pass-tag {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+#forgot-pass-tag a {
+  color: #e52727;
+  text-decoration: none;
+}

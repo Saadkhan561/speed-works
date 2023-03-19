@@ -1,0 +1,87 @@
+.desc-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.desc-div-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 80px;
+}
+
+.desc-sub-div-1 {
+  width: 600px;
+  height: 600px;
+  overflow-y: hidden;
+}
+
+.desc-img {
+  object-fit: cover;
+  width: 600px;
+  height: 600px;
+}
+
+.desc-sub-div-2 {
+  margin-left: 30px;
+}
+
+.add-to-cart-div {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.counter {
+  display: flex;
+  padding: 5px;
+}
+
+#counter-number {
+  margin-top: 15px;
+}
+
+#counter-btn {
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.desc-main-div-2 {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.desc-div-2 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.desc-navbar {
+  display: flex;
+  flex: row;
+  justify-content: start;
+  border-bottom: 1px solid grey;
+}
+
+.desc-navbar-li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.desc-navbar-li:hover {
+  border-bottom: 1px solid red;
+}
+
+.desc {
+  margin-top: 20px;
+  padding: 10px;
+  color: grey;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}

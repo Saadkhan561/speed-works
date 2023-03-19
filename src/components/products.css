@@ -1,0 +1,47 @@
+.product-main-div {
+  display: flex;
+  justify-content: center;
+}
+
+.product-sub-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product-card-div {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 400px;
+  cursor: pointer;
+}
+
+.product-button-div {
+  place-items: center;
+  margin-top: 30px;
+}
+
+.product-button {
+    padding: 20px;
+    background-color: #e52727;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+#product-img {
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+}
+
+#tag {
+    margin-top: 10px
+}
+
+#img-tag {
+    color: grey
+}

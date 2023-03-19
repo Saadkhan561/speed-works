@@ -46,7 +46,7 @@
 }
 
 .footer-cart-button {
-    cursor: pointer;
+  cursor: pointer;
   background-color: #e52727;
   height: 40px;
   margin-top: 50px;
@@ -56,4 +56,5 @@
   color: white;
   padding: 10px;
   font-size: 1.1rem;
+  overflow-y: hidden;
 }

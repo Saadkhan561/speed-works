@@ -19,7 +19,7 @@
   color: #e52727;
 }
 
-#p-tag a:hover{
+#p-tag a:hover {
   text-decoration: underline;
 }
 
@@ -49,6 +49,7 @@
   text-align: center;
   width: 400px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .shop-card-img {
